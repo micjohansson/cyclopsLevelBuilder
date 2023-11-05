@@ -6,7 +6,7 @@ The stairs tool lets you quickly draw sets of stairs.
      * Drag the mouse and release the button to define the base of the stairs area
      * Drag the mouse upwards to define the height of the staircase.  Stairs will created to be as close to the top of the dragged volume as possible.
      * Scroll the mouse wheel to change the direction the staircase is pointing.
-     * Use Ctrl-Wheel to change the height of each step.  Ctrl-Shift-Wheel will change the depth of each step.
+     * Use <kbd>Ctrl</kbd> + Scroll or <kbd>⌘</kbd> + Scroll to change the height of each step. <kbd>Ctrl</kbd> <kbd>Shift</kbd> + Scroll or <kbd>⌘</kbd> <kbd>Shift</kbd> + Scroll will change the depth of each step.
      * To cancel building the block, press the Escape key.  You can also right click with the mouse.
 
 ![Create stairs](create_stairs.gif)

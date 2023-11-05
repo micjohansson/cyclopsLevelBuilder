@@ -3,7 +3,7 @@
 The duplicate tool will duplicate the current selection.
 
 * A duplicate of all the currently selected objects will begin to follow your mouse cursor.  Click to place them in the scene.
-* You can also press Ctrl-D in Block mode to activate this tool.
+* You can also press <kbd>Ctrl</kbd> <kbd>D</kbd> or <kbd>⌘</kbd> <kbd>D</kbd> in Block mode to activate this tool.
 
 ![Duplicate block](duplicate_block.gif)
 

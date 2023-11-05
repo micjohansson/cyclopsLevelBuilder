@@ -32,7 +32,7 @@ This is in the tradition of level design techniques from early 3D games such as 
 
 Cyclops Level Builder also uses a grid and most operations will automatically snap vertices to the grid.  This is because in level design, you usually want walls, floors and ceiling to join up and be flush with each other.  Many other modeling programs make this difficult to do.
 
-Most commands are undoable, so you can use Ctrl-Z to undo most actions and Ctrl-Shift-Z to redo them.
+Most commands are undoable, so you can use <kbd>Ctrl</kbd> <kbd>Z</kbd> or <kbd>⌘</kbd> <kbd>Z</kbd> to undo most actions and <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>Z</kbd> or <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>Z</kbd> to redo them.
 
 Most of the tools support pressing the Escape key to cancel the current operation.
 
@@ -122,7 +122,7 @@ The display mode lets you switch between drawing blocks with materials and drawi
 
 ## General Commands
 
-* Ctrl-D will activate the duplicate tool.  When you type this in Block mode, the current selection will be duplicated and will follow the mouse cursor.  Click to drop the duplicated blocks at your desired location.
+* <kbd>Ctrl</kbd> <kbd>D</kbd> or <kbd>⌘</kbd> <kbd>D</kbd> will activate the duplicate tool.  When you type this in Block mode, the current selection will be duplicated and will follow the mouse cursor.  Click to drop the duplicated blocks at your desired location.
 
 * X key to delete all selected blocks.
 	* I wanted to use the Delete key, but this was causing a conflict with Godot so I went with the X key instead.
