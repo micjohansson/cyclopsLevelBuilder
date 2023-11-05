@@ -10,7 +10,7 @@ id = "edit_vertex"
 name = "Vertex"
 tooltip = "Vertex
 
-Click on a vertex to select it.  Shift Click to toggle selecton, Ctrl Click to add to selection, Shift-Ctrl click to subtract from selection.
+Click on a vertex to select it.  Shift Click to toggle selecton, Ctrl|Command Click to add to selection, Shift-Ctrl|Command click to subtract from selection.
 
 Click and drag to move vertex in XZ plane.  Hold Alt to drag along Y axis.  Click and drag on a selected vertex to move all selected vertices.
 

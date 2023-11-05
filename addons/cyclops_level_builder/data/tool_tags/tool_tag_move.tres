@@ -16,7 +16,7 @@ Click and drag anywhere else to drag a rectangular selection region.
 
 Escape or right click to cancel movement.
 
-Click on a block to select it.  Shift-Click toggles, Ctrl-Click adds and Shift-Ctrl Click subtracts.
+Click on a block to select it.  Shift-Click toggles, Ctrl|Command-Click adds and Shift-Ctrl|Command Click subtracts.
 
 Click in empty space to clear selection."
 icon = ExtResource("1_g0ofo")

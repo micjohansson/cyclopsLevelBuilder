@@ -10,7 +10,7 @@ id = "edit_edge"
 name = "Edge"
 tooltip = "Edge
 
-Click on an edge to select it.  Shift Click to toggle selecton, Ctrl Click to add to selection, Shift-Ctrl click to subtract from selection.
+Click on an edge to select it.  Shift Click to toggle selecton, Ctrl|Command Click to add to selection, Shift-Ctrl|Command click to subtract from selection.
 
 Click and drag to move edge in XZ plane.  Hold Alt to drag along Y axis.  Click and drag on a selected edge to move all selected edges.
 

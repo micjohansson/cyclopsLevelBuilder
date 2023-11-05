@@ -12,6 +12,6 @@ tooltip = "Click on surface of block or in empty space to begin creating base of
 
 Release mouse button and drag upwards to adjust the height of the stairs.
 
-Use the mouse wheel to change the direction the stairs face.  Ctrl-Wheel to change the height of each step, Ctrl-Shift-Wheel to change the depth of each step."
+Use the mouse wheel to change the direction the stairs face.  Ctrl|Command-Wheel to change the height of each step, Ctrl|Command-Shift-Wheel to change the depth of each step."
 icon = ExtResource("1_4iod6")
 tool_script = ExtResource("3_5ju43")
