@@ -17,7 +17,7 @@ This is your main tool for creating new blocks.  It also lets you select and mov
 
 * Click and drag on a selected block to move all selected blocks.  The modifier keys will affect how the blocks move.
     * None - Blocks will move in the XZ plane
-    * Alt - Blocks will be moved along the Y axis
+    * <kbd>Alt</kbd> or <kbd>⌥</kbd> - Blocks will be moved along the Y axis
 
 ![Selecting and dragging blocks](select_and_drag_blocks.gif)
 

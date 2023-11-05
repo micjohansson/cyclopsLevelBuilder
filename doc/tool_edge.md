@@ -7,8 +7,8 @@ Edit the edges of the block.
     * You can use the modifier keys to affect how the edge is added to or removed from the selection.
     * Selected edges will be displayed in orange.  One edge may be white which means it is the active edge, which gives it priority by some commands.
 * Click and drag on an edge to move it.  If you drag a selected edge, all selected edges are moved.
-    * Edge will be moved in the XZ plane.  Hold Alt to switch to moving along the Y axis.
-* Hover the mouse cursor over another block and press Alt-Q to switch to editing the edges of that block.
+    * Edge will be moved in the XZ plane.  Hold <kbd>Alt</kbd> or <kbd>⌥</kbd> to switch to moving along the Y axis.
+* Hover the mouse cursor over another block and press <kbd>Alt</kbd> <kbd>Q</kbd> or <kbd>⌥</kbd> <kbd>Q</kbd> to switch to editing the edges of that block.
 
 ![Move edges](move_edges.gif)
 

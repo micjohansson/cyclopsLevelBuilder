@@ -7,9 +7,9 @@ Edit the vertices of the block.
     * You can use the modifier keys to affect how the vertex is added to or removed from the selection.
     * Selected vertices will be displayed in orange.  One vertex may be white which means it is the active vertex, which gives it priority by some commands.
 * Click and drag on a vertex to move it.  If you drag a selected vertex, all selected vertices are moved.
-    * Vertex will be moved in the XZ plane.  Hold Alt to switch to moving along the Y axis.
+    * Vertex will be moved in the XZ plane.  Hold <kbd>Alt</kbd> or <kbd>⌥</kbd> to switch to moving along the Y axis.
 * Hold <kbd>Ctrl</kbd> or <kbd>⌘</kbd> and click and drag on the mesh to drag out a new vertex.
-* Hover the mouse cursor over another block and press Alt-Q to switch to editing the vertices of that block.
+* Hover the mouse cursor over another block and press <kbd>Alt</kbd> <kbd>Q</kbd> or <kbd>⌥</kbd> <kbd>Q</kbd> to switch to editing the vertices of that block.
 
 ![Move vertices](move_vertices.gif)
 

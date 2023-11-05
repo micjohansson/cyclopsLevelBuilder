@@ -7,8 +7,8 @@ Edit the faces of the block.
     * You can use the modifier keys to affect how the face is added to or removed from the selection.
     * Selected faces will be displayed in orange.  One face may be white which means it is the active face, which gives it priority by some commands.
 * Click and drag on a face to move it.  If you drag a selected face, all selected faces are moved.
-    * Face will be moved in the XZ plane.  Hold Alt to switch to moving along the Y axis.
-* Hover the mouse cursor over another block and press Alt-Q to switch to editing the faces of that block.
+    * Face will be moved in the XZ plane.  Hold <kbd>Alt</kbd> or <kbd>⌥</kbd> to switch to moving along the Y axis.
+* Hover the mouse cursor over another block and press <kbd>Alt</kbd> <kbd>Q</kbd> or <kbd>⌥</kbd> <kbd>Q</kbd> to switch to editing the faces of that block.
 
 ![Move faces](move_faces.gif)
 
