@@ -270,7 +270,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 					#print("Invokke select %s" % result)
 					var cmd:CommandSelectBlocks = CommandSelectBlocks.new()
 					cmd.builder = builder
-					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.ctrl_pressed)
+					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.is_command_or_control_pressed())
 
 					if result:
 						cmd.block_paths.append(result.object.get_path())
@@ -299,7 +299,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 						
 						var cmd:CommandSelectBlocks = CommandSelectBlocks.new()
 						cmd.builder = builder
-						cmd.selection_type = Selection.choose_type(e.shift_pressed, e.ctrl_pressed)
+						cmd.selection_type = Selection.choose_type(e.shift_pressed, e.is_command_or_control_pressed())
 
 						for r in result:
 							cmd.block_paths.append(r.get_path())

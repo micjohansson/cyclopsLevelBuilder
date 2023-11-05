@@ -230,7 +230,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 		elif e.button_index == MOUSE_BUTTON_WHEEL_UP:
 			if tool_state == ToolState.DRAG_BASE || tool_state == ToolState.DRAG_HEIGHT:
 				if e.pressed:
-					if e.ctrl_pressed:
+					if e.is_command_or_control_pressed():
 						if e.shift_pressed:
 							var size = log(settings.step_depth) / log(2)
 							settings.step_depth = pow(2, size + 1)
@@ -244,7 +244,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 		elif e.button_index == MOUSE_BUTTON_WHEEL_DOWN:
 			if tool_state == ToolState.DRAG_BASE || tool_state == ToolState.DRAG_HEIGHT:
 				if e.pressed:
-					if e.ctrl_pressed:
+					if e.is_command_or_control_pressed():
 						if e.shift_pressed:
 							var size = log(settings.step_depth) / log(2)
 							settings.step_depth = pow(2, size - 1)

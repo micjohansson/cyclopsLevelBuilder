@@ -375,7 +375,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 					for block in sel_blocks:
 						cmd.add_edges(block.get_path(), [])
 
-					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.ctrl_pressed)
+					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.is_command_or_control_pressed())
 
 					var res:PickHandleResult = pick_closest_handle(viewport_camera, e.position, builder.handle_screen_radius)
 					if res:
@@ -436,7 +436,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 							if MathUtil.frustum_contians_point(frustum, point_w):
 								cmd.add_edge(block.get_path(), e_idx)
 
-					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.ctrl_pressed)
+					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.is_command_or_control_pressed())
 
 					if cmd.will_change_anything():
 						var undo:EditorUndoRedoManager = builder.get_undo_redo()

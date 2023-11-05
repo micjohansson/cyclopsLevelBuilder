@@ -419,7 +419,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 						cmd.add_face(handle.block_path, handle.face_index)
 						#print("selecting %s" % handle.face_index)
 						
-					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.ctrl_pressed)
+					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.is_command_or_control_pressed())
 						
 					if cmd.will_change_anything():
 						var undo:EditorUndoRedoManager = builder.get_undo_redo()
@@ -471,7 +471,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 							if MathUtil.frustum_contians_point(frustum, point_w):
 								cmd.add_face(block.get_path(), f_idx)
 
-					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.ctrl_pressed)
+					cmd.selection_type = Selection.choose_type(e.shift_pressed, e.is_command_or_control_pressed())
 
 					if cmd.will_change_anything():
 						var undo:EditorUndoRedoManager = builder.get_undo_redo()

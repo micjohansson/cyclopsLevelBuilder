@@ -76,7 +76,7 @@ func start_block_drag(viewport_camera:Camera3D, event:InputEvent):
 
 		block_drag_p0 = MathUtil.snap_to_grid(start_pos, grid_step_size)
 		
-		if e.ctrl_pressed:
+		if e.is_command_or_control_pressed():
 			tool_state = ToolState.MOVE_FACE
 			
 			cmd_move_face = CommandMoveFacePlanar.new()
@@ -246,7 +246,7 @@ func _gui_input(viewport_camera:Camera3D, event:InputEvent)->bool:
 			return super._gui_input(viewport_camera, event)
 		
 		if tool_state == ToolState.NONE:
-			if e.ctrl_pressed:
+			if e.is_command_or_control_pressed():
 				#block_drag_cur = MathUtil.intersect_plane(origin_local, dir_local, block_drag_p0_local, drag_floor_normal)
 				var result:IntersectResults = builder.intersect_ray_closest(origin, dir)
 				#print("picked result %s" % result)
